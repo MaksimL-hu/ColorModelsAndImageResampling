@@ -9,7 +9,7 @@
 
 | Исходное изображение |
 |---|
-| ![Original](./input.png) |
+| ![Original](./PythonApplication1/input.png) |
 
 ---
 
@@ -21,7 +21,7 @@
 
 | Красный (R) | Зелёный (G) | Синий (B) |
 |---|---|---|
-| ![R](./R.png) | ![G](./G.png) | ![B](./B.png) |
+| ![R](./PythonApplication1/R.png) | ![G](./PythonApplication1/G.png) | ![B](./PythonApplication1/B.png) |
 
 ---
 
@@ -31,7 +31,7 @@
 
 | Компонента яркости |
 |---|
-| ![Intensity](./Intensity.png) |
+| ![Intensity](./PythonApplication1/Intensity.png) |
 
 ---
 
@@ -41,7 +41,7 @@
 
 I' = 1 - I
 
-![Inverted](./Inverted.png)
+![Inverted](./PythonApplication1/Inverted.png)
 
 ---
 
@@ -51,7 +51,7 @@ I' = 1 - I
 
 Изображение увеличивается в **M раз** методом **nearest neighbor interpolation**.
 
-![Stretch](./Stretch.png)
+![Stretch](./PythonApplication1/Stretch.png)
 
 ---
 
@@ -59,7 +59,7 @@ I' = 1 - I
 
 Изображение уменьшается в **N раз** методом **децимации** (каждый N-й пиксель).
 
-![Compress](./Compress.png)
+![Compress](./PythonApplication1/Compress.png)
 
 ---
 
@@ -74,7 +74,7 @@ K = M / N
 1. Растягиваем изображение в **M раз**
 2. Сжимаем результат в **N раз**
 
-![Two Pass](./Two_pass.png)
+![Two Pass](./PythonApplication1/Two_pass.png)
 
 ---
 
@@ -82,7 +82,7 @@ K = M / N
 
 Передискретизация выполняется напрямую с коэффициентом **K**.
 
-![One Pass](./One_pass.png)
+![One Pass](./PythonApplication1/One_pass.png)
 
 ---
 
